@@ -1,0 +1,70 @@
+ 
+ #Habilidades{
+   justify-content: center;
+   text-align: center;
+   padding-top: 80px;
+   
+   width: 100%;
+}
+.habilidades-escuro{
+    background-color:  rgba(56, 48, 48, 0.754) ;
+    color: rgba(243, 216, 199, 0.864);
+}
+.habilidades-escuro p{
+    color: rgba(93, 90, 90, 0.779) ; 
+}
+.habilidades-claro{
+    background-color: #fff;
+    color: rgba(93, 90, 90, 0.779) ; 
+}
+.descricao-habilidades{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 800px;
+    
+}
+.descricao-habilidades div{
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 201, 197, 0.882);
+    margin: 10px;
+    border-radius: 40px;
+    padding-top: 10px;
+   
+}
+.descricao-habilidades p{
+    font-size: 13px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.descricao-habilidades img{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    padding: 10px;
+}
+
+.descricao-habilidades div:hover{
+    background-color: rgb(240, 159, 214);
+}
+.container-habilidades{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 768px){
+    .container-habilidades img{
+        width: 50px;
+        height: 50px;
+    }
+    .descricao-habilidades p{
+        font-size: 10px;
+    }
+}
+

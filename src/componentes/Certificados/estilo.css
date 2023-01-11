@@ -1,0 +1,93 @@
+#Certificados{
+    justify-content: center;
+   text-align: center;
+   padding-top: 80px; 
+   width: 100%;
+   padding-bottom: 100px;
+}
+.certi-escuro{
+    background-color:  rgba(56, 48, 48, 0.754) ;
+    color: rgba(243, 216, 199, 0.864);
+}
+.certi-claro{
+    color: rgba(93, 90, 90, 0.779) ; 
+}
+#botao-esquerdo{
+    border-radius: 0;
+    height: 75px;
+    width: 80px;
+    border-color: #fff;
+   
+}
+#botao-direito{
+    border-radius: 0;
+    height: 75px;
+    width: 80px;
+    border-color: #fff;
+   
+}
+
+#botao-esquerdo img{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#botao-direito img{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container-cursos{
+    display: flex;
+    overflow-x: auto; 
+    width: 1000px; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+}
+.container-cursos img:hover{
+    width: 600px;
+    height: 400px;
+}
+.container-cursos div{
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    padding-top: 0 ;
+    padding-bottom: 0;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.container-cursos p{
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.container-cursos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+     
+}
+.container-certificados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container-certificados img{
+    width: 200px;
+    height: 100px;
+
+}
+

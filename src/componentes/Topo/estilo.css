@@ -1,0 +1,115 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.topoEscuro{
+    background-color: rgba(58, 56, 53, 0.734);
+}
+.topoClaro{ background-color: rgba(255, 201, 197, 0.882);
+   
+}
+.icone-logo{
+    height: 60px;
+}
+#links-topo{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.linksEscuros a{
+    color: rgba(243, 216, 199, 0.864);
+    text-decoration: none;
+    padding: 10px;
+    
+    
+    
+}
+.linksClaro a {
+    color: rgba(58, 56, 53, 0.864);
+    text-decoration: none;
+    padding: 10px;
+    
+    
+}
+
+button{
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    margin-top: 8px;
+}
+.botao-claro{
+    background-color: rgba(255, 201, 197, 0.882);
+    margin-top: 8px;
+    border-color: rgba(250, 235, 215, 0.213);
+}
+.botao-escuro{
+    background-color: rgba(93, 90, 90, 0.779);
+    margin-top: 8px;
+    border-color: rgba(0, 0, 0, 0.305);
+}
+button img{
+    width: 25px;
+    align-items: center;
+    display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+    .icone-logo{
+        width: 200px;
+        height: 50px;
+    }
+    #links-topo{
+        font-size: 15px;
+    }
+    button{
+        width: 30px;
+        height: 30px;
+    }
+    button img{
+        width: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .icone-logo{
+        width: 200px;
+        height: 50px;
+    }
+    #links-topo{
+        font-size: 12px;
+    }
+    button{
+        width: 30px;
+        height: 30px;
+    }
+    button img{
+        width: 15px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .icone-logo{
+        width: 120px;
+        height: 40px;
+    }
+    #links-topo{
+        font-size: 11px;
+        margin-top: 8px;
+    }
+    .linksClaro a, .linksEscuros a{
+        padding: 5px;
+    }
+    button{
+        width: 25px;
+        height: 25px;
+    }
+    button img{
+        width: 10px;
+    }
+}
+

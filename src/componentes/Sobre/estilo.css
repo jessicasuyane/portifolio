@@ -1,0 +1,80 @@
+#Sobre{
+    display: flex;
+    
+    padding: 50px;
+    
+}
+.sobre-claro{
+    color: rgba(93, 90, 90, 0.779) ; 
+    background-image: url(../../assets/menina-claro.jpg);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: contain;
+}
+.sobre-escuro {
+    color: rgba(243, 216, 199, 0.864);
+    background-image: url(../../assets/menina-escuro.jpg);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: contain;
+    background-color:  rgba(56, 48, 48, 0.754) ;
+
+    }
+h3{
+    font-size: 40px;
+    text-align: center;
+}
+#Sobre p{
+    font-size: 18px;
+    font-weight: bolder;
+    width: 600px;
+    
+}
+@media screen and (max-width: 1024px){
+    .sobre-escuro, .sobre-claro{
+        background-size: 250px;
+    }
+    #Sobre p{
+        font-size: 15px;
+        width: 500px;
+    }
+    h3{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 768px){
+    .sobre-escuro, .sobre-claro{
+        background-size: 200px;
+    }
+    #Sobre p{
+        font-size: 15px;
+        width: 400px;
+    }
+    h3{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 621px){
+    .sobre-escuro, .sobre-claro{
+        background-size: 150px;
+    }
+    #Sobre p{
+        font-size: 10px;
+        width: 300px;
+    }
+    h3{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 481px){
+    .sobre-escuro, .sobre-claro{
+        background-size: 130px;
+    }
+    #Sobre p{
+        font-size: 10px;
+        width: 200px;
+    }
+    h3{
+        font-size: 30px;
+    }
+}
